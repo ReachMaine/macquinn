@@ -1,0 +1,58 @@
+/*
+Theme Name: hmacquinn
+Description: Oshin Child Theme for Harold MacQuinn, Inc
+Author: Reach Maine
+Template: oshin
+Version: 1.2
+*/
+@import url("../oshin/style.css");
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* ----------- Typography ------------------------------- */
+i.fa-pull-left {
+  float: left;
+  padding-right: 5px; }
+
+i.fa-pull-right {
+  float: right;
+  padding-left: 5px; }
+
+/* ----------- end typography ----------- */
+/* standard Reach styling of Oshin */
+.title-module-wrap.page-title-module-custom {
+  padding: 10px 0px; }
+
+.left-sidebar-page,
+.right-sidebar-page,
+.no-sidebar-page .be-section-pad:first-child,
+.page-template-page-940-php #content,
+.no-sidebar-page #content-wrap,
+.portfolio-archives.no-sidebar-page #content-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.tatsu-module {
+  margin-bottom: 15px; }
+
+.page #comments {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; }
+
+/*** slidebar in oshine slidebar is above main content *** */
+/*  header stuff - here */
+/*** styling of content */
+/** sidebar
+
+/** footer **/
+#reach-bottom-cta {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+#footer a.reach-logo {
+  color: white; }
+#footer .reach-logo:before {
+  content: url("images/reach-favicon.png");
+  padding-right: 4px; }
+
+/* *** keep this at the end *** */
+/* **** media **** */
