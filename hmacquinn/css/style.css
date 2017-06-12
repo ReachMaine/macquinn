@@ -41,6 +41,9 @@ i.fa-pull-right {
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
+.hmi-white90bkg {
+  background-color: rgba(255, 255, 255, 0.9); }
+
 /** sidebar
 
 /** footer **/
