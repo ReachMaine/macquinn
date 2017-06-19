@@ -8,8 +8,8 @@
 .page-template-page-940-php #content,
 .no-sidebar-page #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
 }
 .tatsu-module {
   margin-bottom: 15px;
@@ -17,4 +17,11 @@
 .page #comments {
 	padding-top: 0px!important;
 	padding-bottom: 0px!important;
+}
+
+.single-post #content  {
+	padding-bottom: 0px!important;
+}
+.blog-post.element {
+	margin-bottom: 20px;
 }

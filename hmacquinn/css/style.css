@@ -28,8 +28,8 @@ i.fa-pull-right {
 .page-template-page-940-php #content,
 .no-sidebar-page #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 20px !important;
+  padding-bottom: 20px !important; }
 
 .tatsu-module {
   margin-bottom: 15px; }
@@ -37,6 +37,12 @@ i.fa-pull-right {
 .page #comments {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
+
+.single-post #content {
+  padding-bottom: 0px !important; }
+
+.blog-post.element {
+  margin-bottom: 20px; }
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
@@ -59,3 +65,6 @@ i.fa-pull-right {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (min-width: 768px) {
+  .reach-pull-right {
+    float: right; } }
