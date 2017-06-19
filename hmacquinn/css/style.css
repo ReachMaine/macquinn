@@ -44,6 +44,12 @@ i.fa-pull-right {
 .blog-post.element {
   margin-bottom: 20px; }
 
+.post-thumb .caption {
+  font-size: smaller;
+  line-height: normal;
+  font-style: italic;
+  color: #808080; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */

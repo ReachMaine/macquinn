@@ -102,5 +102,5 @@ $post_format = get_post_format();
 			</div>
 		</div> */ ?>
 	<?php } ?>
-	<div class="blog-separator clearfix"><hr class="separator"></div>
+	<?php /* zig xout <div class="blog-separator clearfix"><hr class="separator"></div> */ ?>
 </article>

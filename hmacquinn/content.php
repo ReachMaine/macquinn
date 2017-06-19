@@ -1,4 +1,4 @@
-<?php 
+<?php
 global $be_themes_data, $blog_attr;
 if( has_post_thumbnail() ) :
 	$blog_image_size = 'blog-image';
@@ -6,7 +6,7 @@ if( has_post_thumbnail() ) :
     	$blog_image_size = 'portfolio-masonry';
     }
 	$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), $blog_image_size );
-    $thumb_full = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'full' );    
+    $thumb_full = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'full' );
 	$url = $thumb['0'];
 	$attachment_full_url = $thumb_full[0];
 	$link = $attachment_full_url;
@@ -16,14 +16,14 @@ if((isset($be_themes_data['open_to_lightbox']) && 1 == $be_themes_data['open_to_
 	$class = 'image-popup-vertical-fit mfp-image';
 } else {
 	if(!is_single()){
-		$link = get_permalink();	
+		$link = get_permalink();
 	}else{
 		$link = '#';
 	}
 }
 if( !empty( $url ) ) : ?>
-<div class="post-thumb">	
-	<div class="">        	
+<div class="post-thumb">
+	<div class="">
 		<a href="<?php echo esc_url( $link ) ?>" class="<?php echo $class; ?> thumb-wrap"><?php the_post_thumbnail( $blog_image_size ); ?>
 			<div class="thumb-overlay">
 				<div class="thumb-bg">
@@ -32,7 +32,10 @@ if( !empty( $url ) ) : ?>
 					</div>
 				</div>
 			</div>
+			<?php if ( ($caption = get_post( get_post_thumbnail_id() )->post_excerpt ) && is_single() ) : ?>
+			    <p class="caption"><?php echo $caption; ?></p>
+			<?php endif; ?>
 		</a>
-	</div>			
+	</div>
 </div>
 <?php endif; ?>
