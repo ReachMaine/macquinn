@@ -8,6 +8,10 @@
 .page-template-page-940-php #content,
 .no-sidebar-page #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.single-post #content-wrap {
 	padding-top: 20px!important;
 	padding-bottom: 20px!important;
 }
