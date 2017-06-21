@@ -18,6 +18,14 @@
 @media only screen and (max-width: 960px) {
 
 }
+@media only screen and (max-width: 1172px) and (min-width: 960px) { // where logo gets too big
+	body #header-inner-wrap.top-animate #header-controls-right #navigation,
+	#header-wrap #navigation {
+		line-height: 2.5em;
+
+	}
+}
+
 
 @media only screen and (min-width: 768px) {
 	.reach-pull-right {
@@ -26,6 +34,9 @@
 }
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
 	// hide-mobile available from tatsu
+	#header-inner-wrap .logo {
+		max-width: 75%;
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480

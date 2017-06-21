@@ -60,6 +60,13 @@ i.fa-pull-right {
 .hmi-white90bkg {
   background-color: rgba(255, 255, 255, 0.9); }
 
+.wpcf7-form .wpcf7-form-control-wrap textarea, .wpcf7-form .wpcf7-form-control-wrap input {
+  letter-spacing: 1px; }
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+  color: white;
+  background-color: #20c444; }
+
 /** sidebar
 
 /** footer **/
@@ -75,6 +82,13 @@ i.fa-pull-right {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 1172px) and (min-width: 960px) {
+  body #header-inner-wrap.top-animate #header-controls-right #navigation,
+  #header-wrap #navigation {
+    line-height: 2.5em; } }
 @media only screen and (min-width: 768px) {
   .reach-pull-right {
     float: right; } }
+@media only screen and (max-width: 767px) {
+  #header-inner-wrap .logo {
+    max-width: 75%; } }

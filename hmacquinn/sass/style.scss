@@ -23,6 +23,18 @@ Version: 1.2
 
 	background-color: rgba(255,255,255,0.9);
 }
+
+// contact form 7
+.wpcf7-form .wpcf7-form-control-wrap {
+	textarea, input {
+		letter-spacing: 1px;
+	}
+}
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+	color: white;
+	background-color: $logo-green;
+}
+
 /** sidebar
 
 /** footer **/
