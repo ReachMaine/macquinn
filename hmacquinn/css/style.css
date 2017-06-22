@@ -64,7 +64,8 @@ input[type="submit"] {
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 3px;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
