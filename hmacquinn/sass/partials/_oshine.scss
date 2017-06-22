@@ -36,3 +36,8 @@
 	font-style: italic;
 	color: #808080;
 }
+// for IE, make image width 100% s.t. it doesnt get cut off.
+// not sure if just in column or not....
+.tatsu-column .tatsu-single-image img {
+	width: 100%;
+}

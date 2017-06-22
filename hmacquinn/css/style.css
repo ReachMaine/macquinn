@@ -54,6 +54,9 @@ i.fa-pull-right {
   font-style: italic;
   color: #808080; }
 
+.tatsu-column .tatsu-single-image img {
+  width: 100%; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
