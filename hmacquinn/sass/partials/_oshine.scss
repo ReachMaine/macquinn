@@ -41,3 +41,13 @@
 .tatsu-column .tatsu-single-image img {
 	width: 100%;
 }
+// for IE, stop ugly buttons
+.wpcf7-form .wpcf7-form-control.wpcf7-submit,
+input[type="submit"] {
+	border: 0px;
+	padding: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	font-weight: bold;
+}
