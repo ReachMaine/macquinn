@@ -105,3 +105,6 @@ input[type="submit"] {
 @media only screen and (max-width: 767px) {
   #header-inner-wrap .logo {
     max-width: 75%; } }
+@media only screen and (max-width: 479px) {
+  #header-inner-wrap #header-wrap .logo {
+    margin-left: 5px; } }
